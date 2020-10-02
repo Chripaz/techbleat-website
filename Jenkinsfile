@@ -1,6 +1,7 @@
 pipeline {
     agent any 
     stages {
+
         stage ('Copy index file') {
             steps {
                 echo "copying index file"
